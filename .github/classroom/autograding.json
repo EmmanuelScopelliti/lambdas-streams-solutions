@@ -3,12 +3,12 @@
     {
       "name": "Exercise 1",
       "setup": "",
-      "run": "mvn -q -Dtest=CustomerTest,OrderTest test",
+      "run": "mvn -q -Dtest=SimplePipelinesTest test",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 3
+      "points": 2
     },
     {
       "name": "Exercise 2",
@@ -19,6 +19,26 @@
       "comparison": "included",
       "timeout": 10,
       "points": 2
+    },
+    {
+      "name": "Exercise 3",
+      "setup": "",
+      "run": "mvn -q -Dtest=CustomerTest,OrderTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Exercise 4",
+      "setup": "",
+      "run": "mvn -q -Dtest=MessyStreamsTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
     }
   ]
 }
