@@ -1,0 +1,13 @@
+package ex3.model;
+
+public enum SnowType {
+  PACKED_POWDER,
+  POWDER,
+  HARD_PACK,
+  LOOSE_GRANULAR,
+  FROZEN_GRANULAR,
+  WET_PACKED,
+  WET_GRANULAR,
+  WET_SNOW,
+  CORN_SNOW
+}
