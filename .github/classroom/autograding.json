@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Exercise 1",
+      "setup": "",
+      "run": "mvn -q -Dtest=CustomerTest,OrderTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Exercise 2",
+      "setup": "",
+      "run": "mvn -q -Dtest=FibonacciGeneratorTest,HalvesGeneratorTest,PerfectSquareGeneratorTest,PrimeGeneratorTest test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
