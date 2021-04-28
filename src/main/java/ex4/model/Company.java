@@ -1,4 +1,4 @@
-package ex3.model;
+package ex4.model;
 
 import java.util.Collection;
 import java.util.HashSet;

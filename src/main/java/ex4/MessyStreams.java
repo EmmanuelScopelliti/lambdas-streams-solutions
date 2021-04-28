@@ -1,6 +1,6 @@
-package ex3;
+package ex4;
 
-import ex3.model.*;
+import ex4.model.*;
 
 import java.util.Collections;
 import java.util.List;

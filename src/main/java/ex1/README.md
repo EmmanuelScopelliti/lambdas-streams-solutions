@@ -1,25 +1,13 @@
-## Exercise 1: Life After Streams
+## Exercise 1: Simple Pipelines
 
-This exercise is very similar to the exercise 4 from collections lab, with one important difference, you should **USE streams, lambdas, and optionals** to solve it. 
+Implement, using streams, the methods listed below defined in the [`SimplePipelines`](SimplePipelines.java) class.
 
-This exercise simulates a fragment of a simplified order management system. You should implement the methods listed below, according to their description and the unit tests located in [`test/java/ex1/`](../../../test/java/ex1).
+  - `public static int getTotalNumberOfLettersOfNamesLongerThanFive(String... names)`
+  - `public static String[] getSortedCopy(String... names)`
+  - `public static List<String> transform(List<List<String>> listOfLists)`
+  - `public static Optional<Person> getOldest(Person... people)`
+  - `public static List<Person> getAdults(Person... people)`  
+  - `public static String getSemicolonSeparatedQuotedValues(Object... values)`
 
-- In the [`Order`](Order.java) class, implement the methods:
-    - `public void addProduct(Product product, int quantity)`
-    - `public void removeProduct(Product product)`
-    - `public OrderLine getOrderLine(Product product)`
-    - `public double getTotal()`
-    - `public double getAverageProductPrice()`
-    - `public Product getMostExpensiveProduct()`
-    - `private boolean isEmpty()`
-  
-- In the [`Customer`](Customer.java) class, implement the methods:
-  - `public List<Product> getPurchasedProducts()`
-  - `public List<Product> getSortedListOfExpensivePurchasedProducts()`
-  - `public Product findAnyCheapPurchasedProduct()`
-  - `public Product mostPurchasedProduct()`
-
-You should NOT change any method signature, but you are free to add new methods you see fit.
-
-Your code should pass all tests defined in [`CustomerTest`](../../../test/java/ex1/CustomerTest.java) and [`OrderTest`](../../../test/java/ex1/OrderTest.java).
+Your code should pass all tests defined in [`SimplePipelinesTest`](../../../test/java/ex1/SimplePipelinesTest.java).
  

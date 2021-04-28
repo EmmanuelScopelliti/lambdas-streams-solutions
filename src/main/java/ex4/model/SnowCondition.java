@@ -1,4 +1,4 @@
-package ex3.model;
+package ex4.model;
 
 public class SnowCondition {
   int baseSnow;

@@ -1,15 +1,15 @@
-package ex3;
+package ex4;
 
-import ex3.model.*;
+import ex4.model.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
 import static com.google.common.truth.Truth.assertThat;
-import static ex3.MessyStreams.*;
-import static ex3.model.LiftType.*;
-import static ex3.model.SnowType.*;
+import static ex4.MessyStreams.*;
+import static ex4.model.LiftType.*;
+import static ex4.model.SnowType.*;
 
 class MessyStreamsTest {
   static Company company;
